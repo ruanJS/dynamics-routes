@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home(){
 
   return(
-    <div>
+    <div className='home'>
        <h1>Home</h1>
       <a href='/produtos/bone'>
           <Image src="/img/bone-59fifty.png" alt="Boné" width={300} height={220}/>
