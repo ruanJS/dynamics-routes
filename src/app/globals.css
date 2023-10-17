@@ -1,43 +1,54 @@
-
 body {
     background-color: #e8ffff;
     color: #213e3b;
-  }
+}
 
-a{
+.home {
+    text-align: center;
+    margin: 1em;
+}
+
+a {
     text-decoration: none;
     color: #69779b;
 }
-a:visited{
+
+a:visited {
     color: #69779b;
-    
 }
-.cabecalho nav{
+
+.cabecalho nav {
     display: flex;
     justify-content: space-around;
 }
+
 footer {
     text-align: center;
     padding: 1rem 0;
     list-style: none;
     text-decoration: none;
 }
-h1, h2{
+
+h1, h2 {
     text-align: center;
     color: #7579e7;
 }
+
 div h4 {
     text-align: center;
     padding: 1rem;
     font-size: 20px;
 }
-figure{
+
+figure {
     display: flex;
     justify-content: center;
 }
+
 img {
     filter: brightness(0.9);
-  }
+}
+
 
 
 
