@@ -11,7 +11,7 @@ export default function Sapato() {
           de 1984 e lançado ao público em 1º de abril de 1985.
         </h4>
         <figure>
-          <Image src="/img/tenis-jordan.png" alt="Sapato" width={250} height={320}/>
+          <Image src="/img/tenis-jordan.png" alt="Sapato" width={350} height={340}/>
         </figure>
       </div>
     </div>
