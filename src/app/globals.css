@@ -1,6 +1,5 @@
 body {
-    background-color: #e8ffff;
-    color: #213e3b;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -8,6 +7,10 @@ body {
 .home {
     text-align: center;
     margin: 1em;
+}
+
+nav a{
+    text-decoration: none;
 }
 
 a {
@@ -35,7 +38,6 @@ footer {
     text-align: center;
     padding: 3rem 0;
     margin-top: 10%;
-    /* margin-bottom: 20%; */
 }
 
 h1{
@@ -49,7 +51,7 @@ h2 {
     margin: 0;
     padding: 30px;
     text-align: center;
-    color: #7579e7;
+    color: #ffffff;
 }
 
 div h4 {
