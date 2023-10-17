@@ -1,6 +1,8 @@
 body {
     background-color: #e8ffff;
     color: #213e3b;
+    margin: 0;
+    padding: 0;
 }
 
 .home {
@@ -10,26 +12,42 @@ body {
 
 a {
     text-decoration: none;
-    color: #69779b;
+    color: #5384ff;
 }
 
-a:visited {
-    color: #69779b;
+.cabecalho{
+    background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+
 }
 
 .cabecalho nav {
     display: flex;
     justify-content: space-around;
+    
 }
 
 footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 1rem 0;
-    list-style: none;
-    text-decoration: none;
+    padding: 3rem 0;
+    margin-top: 10%;
+    /* margin-bottom: 20%; */
 }
 
-h1, h2 {
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #7579e7;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 30px;
     text-align: center;
     color: #7579e7;
 }
@@ -49,7 +67,33 @@ img {
     filter: brightness(0.9);
 }
 
+figcaption {
+    font-size: 20px;
+    justify-content: space-between;
+}
 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.1); 
+}
+  
+.card {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+figcaption {
+    padding: 20px;
+}
+  
 
 
   
