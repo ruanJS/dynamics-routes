@@ -2,11 +2,13 @@ import Link from "next/link";
 
 export default function Cabecalho() {
   return (
-
     <div className="cabecalho">
       <header>
         <h2>Lojinha da FiapTech</h2>
         <nav>
+          <p>
+            <Link href="/">Home</Link>
+          </p>
           <p>
             <Link href="/produtos/bone">Boné</Link>
           </p>
@@ -21,9 +23,6 @@ export default function Cabecalho() {
           </p>
           <p>
             <Link href="/produtos/sapato">Sapato</Link>
-          </p>
-          <p>
-            <Link href="/">Home</Link>
           </p>
         </nav>
       </header>
