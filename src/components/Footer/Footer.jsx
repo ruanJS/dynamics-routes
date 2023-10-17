@@ -10,7 +10,7 @@ export default function Rodape() {
             <Link href="/produtos/4">Produto - 4</Link> -
             <Link href="/produtos/5">Produto - 5</Link>
           </p>
-        <p className="voltar"><Link href="/">Voltar</Link></p>
+        
             <p>&copy;Todos os direitos reservados - 2023</p>
       </footer>
     )

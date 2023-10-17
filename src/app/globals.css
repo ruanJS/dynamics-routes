@@ -1,9 +1,16 @@
+
+body {
+    background-color: #e8ffff;
+    color: #213e3b;
+  }
+
 a{
     text-decoration: none;
-    list-style: none;
+    color: #69779b;
 }
 a:visited{
-    color: black;
+    color: #69779b;
+    
 }
 .cabecalho nav{
     display: flex;
@@ -17,4 +24,21 @@ footer {
 }
 h1, h2{
     text-align: center;
+    color: #7579e7;
 }
+div h4 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+}
+figure{
+    display: flex;
+    justify-content: center;
+}
+img {
+    filter: brightness(0.9);
+  }
+
+
+
+  
