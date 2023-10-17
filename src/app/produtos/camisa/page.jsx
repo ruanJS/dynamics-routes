@@ -7,7 +7,7 @@ export default function Camisa() {
         <div>
             <h1>Produto: Camisa</h1>
             <Image src="/camisa.jpg" alt="Camisa" width={290} height={300}/>
-            <p><Link href="/">Voltar</Link></p>
+            
         </div>
     );
 }
