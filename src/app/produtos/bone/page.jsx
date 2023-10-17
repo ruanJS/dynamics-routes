@@ -12,7 +12,7 @@ export default function Bone() {
           retas.
         </h4>
         <figure>
-          <Image src="/img/bone-59fifty.png" alt="Boné" width={300} height={220}/>
+          <Image src="/img/bone-59fifty.png" alt="Boné" width={400} height={280}/>
         </figure>
       </div>
     </div>
